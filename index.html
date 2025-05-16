@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Expert Gwalior - Electronics Repair & Services</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://enterprise.vitabletech.in/img/ourkarigar-logo.webp" alt="LED Expert Gwalior" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+   <header class="hero-section">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+            <!-- Main Content Column -->
+            <div class="col-lg-7">
+                <h1 class="display-4 fw-bold text-white">Expert Electronics Repair in Gwalior</h1>
+                <p class="lead text-white">We provide reliable repair services for LED TVs, microwaves, and industrial equipment with guaranteed satisfaction.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg mt-3">Book a Service</a>
+            </div>
+            
+            <!-- Contact Icons Column - Transparent -->
+            <div class="col-lg-4 offset-lg-1">
+                <div class="contact-sidebar p-3">
+                    <div class="d-flex flex-column gap-3">
+                        <!-- Phone -->
+                        <a href="tel:+917723062912" class="text-decoration-none contact-item">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-transparent rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="fas fa-phone-alt fs-5 text-white"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-white">Call Now</h5>
+                                    <p class="mb-0 text-white fw-bold">+91 77230 62912</p>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/917723062912" target="_blank" class="text-decoration-none contact-item">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-transparent rounded-circle d-flex align-items-center justify-content-center me-3">
+                                    <i class="fab fa-whatsapp fs-5 text-white"></i>
+                                </div>
+                                <div>
+                                    <h5 class="mb-0 text-white">WhatsApp Us</h5>
+                                    <p class="mb-0 text-white fw-bold">+91 77230 62912</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Services Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our Services</h2>
+                <p class="lead text-muted">Quality repair services for all your electronic needs</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHxzdP0_l1_a4mQOlEbZUNsmf6NQuZIvthfQ&s" class="card-img-top" alt="LED TV Repair">
+                        <div class="card-body">
+                            <h5 class="card-title">LED TV Repair</h5>
+                            <p class="card-text">Professional repair services for all brands of LED TVs including Samsung, LG, Sony and more.</p>
+                            <a href="services.html#tv-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="LED TV Repair">
+                        <div class="card-body">
+                            <h5 class="card-title">Music Systems
+</h5>
+                            <p class="card-text">Professional repair services for all brands of LED TVs including Samsung, LG, Sony and more.</p>
+                            <a href="services.html#tv-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="LED TV Repair">
+                        <div class="card-body">
+                            <h5 class="card-title">Microphones
+</h5>
+                            <p class="card-text">Professional repair services for all brands of LED TVs including Samsung, LG, Sony and more.</p>
+                            <a href="services.html#tv-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div> -->
+                 <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="LED TV Repair">
+                        <div class="card-body">
+                            <h5 class="card-title">LED TV Repair</h5>
+                            <p class="card-text">Professional repair services for all brands of LED TVs including Samsung, LG, Sony and more.</p>
+                            <a href="services.html#tv-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="LED TV Repair">
+                        <div class="card-body">
+                            <h5 class="card-title">Induction Cookers</h5>
+                            <p class="card-text">Professional repair services for all brands of LED TVs including Samsung, LG, Sony and more.</p>
+                            <a href="services.html#tv-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="images/service2.jpg" class="card-img-top" alt="Microwave Repair">
+                        <div class="card-body">
+                            <h5 class="card-title">Microwave Repair</h5>
+                            <p class="card-text">Expert repair for all types of microwave ovens including convection, grill and solo models.</p>
+                            <a href="services.html#microwave-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEBISEBASFRAQFRAVDxUVFxUVFRAVFRUWFxUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0lHR0tLS0tLS0tLS0tLS0tKy0tKy0tLS0tLS0tLS0tLTUtLS0tLS0tLS0tKy0tLS0rKy0tLf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAECAwUGBwj/xABREAABAwEEBQYGDQkHBAMAAAABAAIDEQQSITEFQVFhkQYTInGBoQcUMrHR8CNCUlNUYnKCkrKzweEVFyQzNENjc9IWNUSDosPxJZS003STo//EABgBAAMBAQAAAAAAAAAAAAAAAAABAgME/8QAJBEBAQACAwEAAgIDAQEAAAAAAAECEQMSMSFBYRMyIlFxkQT/2gAMAwEAAhEDEQA/APX0kqpVWaiUXBSSQFRCk0KSSASZOkgGSSSQDhOmCkgGSSSQCUSpqBSpwk9Eyk1I1UjUKUbLkgyoyn1U8Tah5p6K8ZIC0jFGV1BjNrOfJSvlQaQFcyQJGrLiqXuKMvhVSPCLP2coYVKqEpBRImAQz3Vcpqo0IzUKahCMFYtGacQxRN1UQDFFEK54m+iYhgEk8eQSVoBudRMJQqba6gWUyZx1rHk5egbsbqq0sWNZbQWnEo9lsqjj5scgKZHVJ8dFX4xdFSqm6Qa7IrXLKSCLUqKD5E0b6rOZ7ulaTCdJJWR2qSZqdAJJJJMEoOU1BymnCTpkikZpDghHZol5QzlOXqp4m0IS0sCMag7SUsvBj6GICcYK1sJSMBUdavcQvKJO5SEJCuayqOtG4DI3J4s0TJFgs3J+aVmjn1rsyUlXFkrFqzWwZoqqDizRTSrx8TRkeSSUeSS0QydJ+SVy0VvoT1ldXpFtWlcJLDR56yseTCZelWo3SOK07BPeKwI4d62tExUJWeGEhyta1SdFc0bSWPNK5rftjeish9lFcVXIWTVsE14YrQZRY9kIBAC1oDVLC/TXhOkkt6cO1SUWqSASSSSASrcrFByVOGCRSSKRq3IdyIch3ZrO+qWBB2hpRjUJanp5eDH1ASFPzyHPaqq9ajdXqCpHkqprymCqlfRLdPUXySEjNDRQdKqUb7ymx9Cl/wBPzxoRjBSUGHBTWrJZHmimINiLjKvFNGx5JJR5JLRDPtrSQaLj57I+8egc9i71jVPmwpuOycDHC4e1dwK29GDaCui5obExiGxK4CMm1DBZExOOC6QxAuVhsjT7UJXHZ1ypDxQhaWi5nGtdq1vFG7EzLK0ZBRMdZFDhJPRMVrVRJqdVhycvS2E0lFrk6YOoOUlEpU4QTFOAnISNU5DOzRL0KTis76qLQgrSjQqZYqqrNwpVLKUTODVLmVExKfqvip7ggrSa5I8wJCAJatP4GsmGYTSOBOCJezYoNhxRljRLF8WSsUGiikqSk14qjYKLMkBTWa0kPAIzR20fXcdGzJJQidgEluxRYrFBimp2CqkkkUWhXdxUwmCdSEZCoNelaTgUJZJL2KyuX+cipPglyqldQK1yz9JTXWlbZfIUVSWwApm2uq5WTSN5xoUNbeU8dmoHAvecbraVA2muS5pllbqN7jJN16FC7BXVXnUPhJjGdnl4s9KuHhOh+DTcWeldUlYV3xKjVcH+c2H4NNxZ/Um/OfB8Hl4x/wBSVlEr0AJFcD+dCD4NNxj/AKk/50ID/h5uLP6kao27iRBuOK49/hNgP+Hl4s/qVLvCJD8Hl4s9Ki41cyjug5MXLhvzixfB5eLPSkfCLF8Hl4s9KrrS3HbFyaq4j84kXweXi30qQ8IkPwebiz0o60bjtCVFz1x35xYPg83FnpVUvhBhOVnm4s9KOtG4658gUmShclorlRFaZOb6UbnUuX6Uefcgg4HrzW+IntOKjPLXq8Zto303OBCguVUjHFR3h9WiJQirMxpNVzEscoyKN0VNKHi9SicymxcbI7CMYBMowu6ISXQwNGVYh7GKjFElqcCNVBxVt1M6OqjLG0SoNKcuTFihI0AVc4ADMkgAdpRlL+DmlVolVdlpqWJpXlFZIqjxgPdqbH069o6PeuYl5fXKiKME6i8k062NxXPjx5/ybsaXr19ekSFc5yitzWNIc4AnIVx4LgNIcr7ZNgZS1p1Moyna2tR1rCmnJq57/lEmgrtqTUcV1XDbKXTYtmkAwOMZaXE9GpwB9O5c7CHTFzmm+am8bzcSB0syK0+5M62tHkhzjtaMD880B4omxSvNTzkoiay++MucWNAFcWVIqLpKJhMJ8O5XIhYJKA3JCCSOhG6SlACa3K0z1qw6KlAqY5qHZDITwGPoR+jeUcLRcDnFxc4ijSBi0DM09yVtQ8qoY4y57HFrXhmQNHOaXAUrXIHFPtB1rlPye/3q0/8AbTdWxSdol4APNWjpZUs8pPaAKjtXSScubIXVpKMAKBg212q1nL6xZFkpIFMWjLPbvS7wdXKnRb8PYrTr/wANPq+arnaBmaL3M2imGUErjj8UAnuXRycvrGTg2YUFMGDjmrovCJZGilyf6LfSjvD61yJ0RJ7zaO2zWgHtFxL8lS+9Win/AMa0U43F1UvhBsjjW5OKj3LdXztyeTwhWQgC7aMK43WnMU90jvC61zD9CTAV5qYgZkQzOp10aaKI0PMf3U3/ANFo/wDWuqZ4RbGAQY7QQc6tbTheRL+X1kYyOTmpbsvOXaBtejdvVxw8oJ9oXWuHl0a9poQQRTAihFQDQh1CDjkQCFA2N3rT0rdtFsbaHulYHXJAHNqKYVLaHVWrThsI2oaRqNnpgmeFuD52MdUi64Y4EiuByqCl41ZvhcS5bTjv0iX5TvOUHcdQGhoagHUSKV844qku18Zs3wuL17V3PI3lzFeZZrRaGytcQ2KQVL2VwAftb8Y5a8MvEXNcMwQtXkk6lsiOznfsZFOUln05bH09JZBqVPN01J7JpAPFUSaFclwl8dHaz0LzYOpSZEBqVjmJg1To9tCB3RHb50yaDyR2+dMuieMqJs2SuQ1lkCIJWsZHSUb4XI8v+W7NGxhraOtMgqxpxDBkHOAzqQaDCtDiKJhT4VuUc1gsjHWaRrJXydLBpfzTGudIWtdXY0VpheG1eW2zSlplN6ad0h+NU0rsxw8yF0lHbbVZbRpG015mVkkcTnnpSuuOcCwU8gXXCuAxwGaZ+Xa3zhXCWSSACr3YHOpAB7MiexUutQ9q0nr6I78eAT6RkuRh2eLuvogYV2G/j8kLEfJK4A1DQQ4i7maDafuopU1JbSQKueGDdQdl52fYAgXWtleg0vdjQmpP0nY06lcdEBsMcjgS+RrySTWnRJbTuKhZLPdLSd/fgiChLTapg+NtA3nCymFb1XFoF47xQrqtBy3edcADSLAOFWmoIoRrGKxdKHpWX+ZD9s70rV0MehL8hn3KeS6xVx/aAnsrC2MMweXuv11gB1MtwHFK0n2J4/js26oiK4nf65J3YSM+UfqOVdq8h4/it+zK5e1dGoz3Der7JZbzZJC6jImiu1znGjGDrOO4AnUqSjHvpZWN1OnlcetscTR2C87idqVyomMBNCkmDkryW6eodW2mEBrHtrdfUUObXN8pvViCOvcqbyvbNWBzKYCWN4OsVY9rh20b9EJy0tQIjnvpZ4cAfZLWKOFR5NmOXFBFEy/s8X821fUsy0lZ11miTSzwNpg6N7z1iUtw7KJrZMxlC97WgkAXiBUnUK61DRP6mzn+DKP/ANttOvXw1g8prA+dkbWXaslY81NMACDTfitcfGeTidOftEvy3/WKt0Xpg2elI2upeGNcQ41OR2VCq04f0mb5cn1ih5g0Bt0gkjp45HDDzqrJZqoaXKDT7rZcvMDebv3cS7yyK57mt4V1qPJT9ri6pvsZFmi7dOV+uArqw1cda0uSx/S4+qb7GRLHGYzU8N9CaOeAFtRHBcxZa4UXQ2I4Yrj466+SCLyV8KL3IGeahWm2Wm7Zz0R2+dJUWN9WN7fOUlrPEVRZyS5a7GYIGBlCjmvV460iphoXzf4WZnT6XljJIF+OMfFbVseHAn5xX0gHBfNfhGP/AFqb+cz7YK4Veq+GSzti0PcjaGsjcGMaMA1oglAA7F5bJlw84XqvhuP/AEp/8z/alXlFo8g9QTngNpEgxsriC6XvYxUzn2OOgoAHBuGeDQT3Kpxc2KzteB7YU1tIjbXLPUOwqpshNbwApeDQKnCpu5k0qMUqBt5926TVl2rRWtOi4YbNeCbxpl0ChDhdFdWup8yGjfSuGe3zqsjFEOp6RdV1lP8AEh+2K1NFvuxTupW7GDTbQVosm2Ek2aop7JDqpQc+QMFq6OxhtNfeXceaNO+ijm/qri/szzMaMecaO7y13pTSS3onnXzkX2cgPmUrXZyyyxSHAOkF2owIo6pG3EFUttAlbIy97K4wujAGD2sa9r8RkQHB2+jty5P26VCIlcOYjGsST8C2H0La0LYbExtbW+V82NImte1va4Nx4haFkg0c6YyTMeLPEwlkYc8tfI5zSBebi8hoxFQBXGuSzvJNtJh8cX2bU15dlpHSlkcKQ2KENBw6FKcAMVkzMY7/AArMgegXg47mup3KZy/o7xfthXsRkroz0HfKj8z1fM+Efun/AE6/cqZJI3NLWgscS0gk1BoHVBNMM1rMts7NKXFWWmUNs8ZccOdtAHXcs/4IEg0z70YLXdijaC4Pa6dziKZSNjbQdkZr8rctoyro+TspLIulVpikLc8KygZasloylZnJvyGmoxZKd49lHpJWlItMfGeXrzfTIraJflv+sVVKS9rAG0uCmrpb9XfVT0mf0mXL9bJnlhI7PclRxlAuNva2jyctYGS0ZpCYtiMdzOvSwNKmuXZtRHJf9rj/AM37GRCQB194DG1xq12rHVXZ96J5L/tcX+b9lIgPo6wQC6Ea3BCWOOQNALSjWxOOpceLqyUTSrNmlq5HWqzv1NWa2ySXvJKV2cdLYP1be3zlJNYonCNtRt85SW88YX0VVKqvTKNL2pXzh4TDTSk5/if7y+ll80+FY00padzx9cFa8U+1nyV6v4Zv7rf8v/blXmUvk/R84XqPhp/ut/8AMH2cq8tl8n6PnCvj/qWfoXSuUHy5fswhyitKDCHc+X7MKi7hxVUlRb1p43UyVt0JOO4JT0WK53FzoK+7h/8AIC1NH15m0UwJjoDsqyle9ZMp6UW50HfaAtawH2G07oq8GE/co5/6/wDi+H+zMt1ullibZ3yHmRIZqEVLA1ha4gjIEUrtLa6ln6ZhEDoJGOPSYXUODm0e4UNNooOwqUkjyHOaDelc0u+JEHUY35zh3O2lH2yE3wSzpMa0YjGmYNNQNSVy7ssb6li6x8o2ua39Em5xv7xjib283qCtUS60mQdJlo3B72eapWbFKSc0W44Ci588fvyN8Mvn2k4hvtXDtaVQ514+27vX17FZZ7GZn3b7WDHpOrQddAT3I+Tk4bl5tpY4tHk0di6uo4UHYluT2q1b5GY+yuds3YgIC02aRuUFepwP3rT5stJFaga6U7lXO/eQtMLltnlI5+W0uaenGWjaQf8AhQdag8gAkE6/uHrrW62+7AVI16+JWLpiyMaWltOlWt3ycKZHI540wxC6sLK5spp1nJCZzg9pGETGDKhq5ziQ7aatOezci9P6SNnbGWtDr8jWGtcAQTXDqWPyCOMu5lP9YXR22yMloJGBwaQ5ta4OGRwO9ayaZ27ee6TaPGZrxIHOzZCv7x2qoVJ5u8CKlusUIp1GpJ7kXp40tUppXpGo6/xxQd4E1ugDI1pn10VoOwx3jUG77UCtR15I7kt+2Q9b/s3rPvgHFgIOWWHbTFaHJk/pkPynfUegPrQhJSqolc7cqJU3KQCdBbSZkkpNyTrSJZvjO5Lxnchbya8ufs26jPGdy+cfCoa6TtB2uH1mr6CvL588KP8AeU/ym+di24Lu1lyzUeseGGW9ox4p+8b9V4+9eYyHofQ84XpHhWr+TpMcL7MKda82efYx1M+5acN3ijkmsmjo2zNklia7K9KRl72doIWu/k7HjWh62xb9bWt71xUEskkULg114NqSRevkxiuHZVV/lWUCsYPlObhebUilaXXb1qjbqn8nmk4XNeqQHjzlO5ZekNERxg1fQ0wAeCTso0x48aDas06enZQGWTnPe2OvuPWXDohDSRyzEutDiGnNjSSXbA9+bjuCRoRPDpWNjcX825rsGg3bhL23jWlL5xNcsqldFo2AOZNG6t2SO4fnMe0d9FnQsututAjYNTRRx9HeepbOjbJIGl92jOi3GtTTCoABqOCnObh43VNZ9GBgFXSFpfG6RrIpJOlHI17KCNjjRrIw0XqeXIddFC28n5Cx917i8vhcx7oJ3ODWteHtutjJFS9hw9ziug0ZbWQ3r5xN0gAtrQXswSNvctSHlHAQOi43ajBzRSoxwruWP8bT+T8OEi0PaQOlR2w+K28HDPOI4b6I5nJ+ctBoMa4GKdtB1GMEdoC7R3KKKoN1wwIzZjXtVkfKmFoILXGueLfSleKU5y1wkeiX643/APbW/wD9SJj0M9zi1rHVxzhtgBpnQuYAew4rtByps/uD9NvpVX9q4GUrUHGlS3gDeR/Bif8ANXHTaDe00umufRs9rkH0mxkJv7PveCBfa8Co/RbQ0DI41hBJofJBquzHLey5XD/ppxVf9tLLU+WKnaANmCqcMibzVwMvJO0SuDTaH45VslsaANVS5lG9ZpqVlq5EP5uJj5JHXDObws1qdW+IwPIY6lLmvOq7wcsLO5xIvGoAoCCcKbCr2crogCLkpB+KrmEiO1rz7Q+gBYy8Xy5xF1+y81zqkbvJw3HHHAx6IttrYXudWl5ziAQ6uJJyog3Tt3/Rf6EBxdssXP26SO9dqXGtK5bqq6bk65sbvZui28SLhpUfOpqQenL7bTI5pc0k1BF5poerFBGeb32X6T1Zajb/ALMuIA54UFaexuwr1HchNCw83b42Vrde4VpSvsbtSDbbrRrmmP8AmS+lFaCD3WyJxDnOc/4ziSWloxOJxIQT6pcwn2yrdC+uD0oJ6tBpmrOd3d64nV9VFkgyeonndqv53d3pue3d6B9Ss4kuiuePnTq2KTAYbU61njO+sXHZ/qTfNPH8Vqkt3FMQ33Pd+Cw1+2vb9Mz5p4j0rwPwqNppG0YUpcNPmxuX0Y6Me48y8o8MnJV8hba4mVaGhs4HtaYBx3EUBOq63bhrwXWX/WfL9xbXhMlD9GOc1vRc6JzThQgmo7ivOP3Y+Sz7krJynkfo52j5ml3NXTBJk5rGEexvG4HA9m9Rb+qb8lnmC6eLG4zVY55drsTJOY2l7RUsqRhe1UNBrNKrGbFPaDUkxRnWf1jhuHtQteR5BwbUGuwUO8/85Kp4r5Rru9qOzX1nsorIPZrLHGKRNBrm8417c3dlBvVusazkNvUAMuxH6L0TNanUhZUHNxyHp9c16ZyY5ERWaj5QHy4VJIwWefJjicxtcPoDkjNaCHSBzIu93b6F6Zo+yMgibEyPosFBgtttQKANA7fQkb27g70LlzyuTfGTH8OV01omG0tpJAcMi3AjtBqhrJzNmAYyxyEa3UB4rsXMcdfc70KPMHafolR/l4veP+nP2e1ROrWzPbTWWinFHCCL3ocPwWkLMPjcKKYgA9qT1lLVG4zBZovem/R/BNLYYXijogR8n8FsNFMmgdqXS3d/oVaLbBGh7N7w3gpDRFm94bwW5dPugo818Y8EfR8ZUOjrOw1bC0HqRHNxe9t4BGmEbSkIBtKPo+M99lhOJiZhuClzEXvbeAWhzI3qQYAnqluMW0aLs8hq6JteoKr8hWf3pvBdBQb0uKev2N/pgDQtnH7od6tZo2FuIjAWzRVmAHWUrL/sbgUOGxPfHqEQbPsckI3DYe1LVPcD3utN2lGCuxSqdhR1HZGDyR2+dMiYzhkmW0nxnaDvDa7inq343E+lCc433J70ueHufOubs26i+h7k9/pTOawihaCDgcAa8UL4wNifxkbk+0HV5X4SOSMVkDrVBRrHdBzDqLzhcpqwyOWrUFyoFIRXUxvcAvcNNWKG2Quhna10bqVG8GoPELkneDezV6MkgGy86h3Uqunj/wDomtZMMuK7+OHZE57rrGlzjkB9+xdjyd5CF1H2o4YEMH3rsNDaFgsopGwXtbiBUrWE3rgoz59+Kx4teo2GCKFobG26BsCJM3XwVQlT3xtCy200sM/Wm5/rUUqo2NRLn+tLxgbD69qoElTQmikevD12JbGos8ZGwpjahscq3Ede/UnACN0ahG3Ae69exC2rT0UVL5fjlRhPeG4IlxA9QlUDYO1G6eoog01G/K/2t/BE+ON3/R/BRvj1/wCErw3I3RqJeON39oA84UhaW+oHoVLpN/r3ql0w3H13I7DqM8YHrd9Clzu493oWebQ3aWncajh+CqNqplR3Ubp/HgjsOjWEw9f+FK/6+oWT+UAM6/Ow7xgr2WhrsWmhPr2p9hcR9719Qle9aoaK0A1B8od42hTM4wAzOSe06Wl+4+vakJQogbTwwUw0I+kcO9aJXkqhJML4zgmTx5JLWeM76ziEqJJLmbkVGiSSDK6NgUXxjYOCZJBK3NGxRDjtKdJTVRewqSSSoiBNc0iU6SArkyKraUkkjiLzQ4KMp6Y6gkkkClOHDzqDzl1FMkgw4cbtamtB5ldCcEkkjTJTVxSSTCTmDYEJPE2nkjXqCdJKnAzB0XJ7EOn1g14pJIh1oNcbrTXGuevMooeWOopJK2VXE5pWfGtUklX5T+BAUkklSVsRw4pJJLWeIvr/2Q==" class="card-img-top" alt="Industrial Equipment">
+                        <div class="card-body">
+                            <h5 class="card-title">Industrial Equipment</h5>
+                            <p class="card-text">Repair and maintenance services for electro fusion welding machines and other industrial equipment.</p>
+                            <a href="services.html#industrial-repair" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Why Choose Us</h2>
+                <p class="lead text-muted">We provide the best service in Gwalior</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="text-center p-4">
+                        <div class="icon-box bg-primary text-white rounded-circle mx-auto mb-3">
+                            <i class="fas fa-award fa-2x"></i>
+                        </div>
+                        <h5>Expert Technicians</h5>
+                        <p class="text-muted">Certified professionals with years of experience</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center p-4">
+                        <div class="icon-box bg-primary text-white rounded-circle mx-auto mb-3">
+                            <i class="fas fa-clock fa-2x"></i>
+                        </div>
+                        <h5>Quick Service</h5>
+                        <p class="text-muted">Same day service for most repairs</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center p-4">
+                        <div class="icon-box bg-primary text-white rounded-circle mx-auto mb-3">
+                            <i class="fas fa-rupee-sign fa-2x"></i>
+                        </div>
+                        <h5>Affordable Prices</h5>
+                        <p class="text-muted">Competitive pricing with no hidden costs</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center p-4">
+                        <div class="icon-box bg-primary text-white rounded-circle mx-auto mb-3">
+                            <i class="fas fa-shield-alt fa-2x"></i>
+                        </div>
+                        <h5>Warranty</h5>
+                        <p class="text-muted">90 days warranty on all repairs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">What Our Customers Say</h2>
+                <p class="lead text-muted">Hear from our satisfied customers</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-item text-center p-4">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-3" width="80" alt="Customer">
+                                    <p class="lead mb-3">"My LED TV was repaired within a day and is working perfectly. Great service at reasonable price."</p>
+                                    <h5>Rahul Sharma</h5>
+                                    <p class="text-muted">Thatipur, Gwalior</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center p-4">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-3" width="80" alt="Customer">
+                                    <p class="lead mb-3">"The technician was very professional and fixed my microwave oven quickly. Highly recommended!"</p>
+                                    <h5>Priya Patel</h5>
+                                    <p class="text-muted">Lashkar, Gwalior</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-item text-center p-4">
+                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle mb-3" width="80" alt="Customer">
+                                    <p class="lead mb-3">"Excellent service for our industrial welding machine. They really know their work."</p>
+                                    <h5>Vikram Singh</h5>
+                                    <p class="text-muted">Industrial Area, Gwalior</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Need Electronic Repairs?</h2>
+            <p class="lead mb-4">Contact us today for fast and reliable service</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">LED Expert Gwalior</h5>
+                    <p>Your trusted partner for all electronic repair services in Gwalior. We provide quality service with guaranteed satisfaction.</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white">About Us</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white">Services</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="fw-bold mb-3">Our Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="services.html#tv-repair" class="text-white">LED TV Repair</a></li>
+                        <li class="mb-2"><a href="services.html#microwave-repair" class="text-white">Microwave Repair</a></li>
+                        <li class="mb-2"><a href="services.html#industrial-repair" class="text-white">Industrial Equipment</a></li>
+                        <li class="mb-2"><a href="services.html" class="text-white">All Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Near Hazira, Gwalior</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +91 77230 62912</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> umeshchennai8@gmail.com</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2"></i> 10:00 AM - 8:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 LED Expert Gwalior. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by LED Expert Team</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
